@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .game-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .choice {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .choice:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0; /* Increased space between player and computer */
+  }
+  
+  .image-container div {
+    text-align: center;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  #result {
+    font-size: 40px; /* Increased font size for result */
+    font-weight: bold;
+    margin-top: 45px;
+    opacity: 0;
+    transition: opacity 0.7s ease;
+  }
+  
+  .result-win {
+    color: green; /* Color for win */
+  }
+  
+  .result-lose {
+    color: red; /* Color for lose */
+  }
+  
+  .result-draw {
+    color: orange; /* Color for draw */
+  }
+  
+  .counter {
+    margin-top: 20px;
+    font-size: 18px; /* Counter font size */
+  }
+  
+  .counter span {
+    font-weight: bold; /* Bold counter numbers */
+  }
+  
+  .choice:active {
+    transform: scale(0.95);
+  }
+  .block{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .wrapper{
+    width:800px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .result__block{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
